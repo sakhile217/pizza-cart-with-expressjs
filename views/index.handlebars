@@ -1,15 +1,185 @@
-<h1>Counter Index</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="Container">
+        <div class="top" hidden>
+
+            <h1>Pizza Perfect</h1>
 
 
-<div>
-    Start here
+            <div class="box">
+                <h3><a href="https://sakhile217.github.io/pizza-history/simplegrid-pizza.html">Link To Simple Grid </a>
+                </h3>
+                <h2>Pizza Insight</h2>
+                All the future variation of pizzas has been made with four distinct ingredients -the crust, the sauce,
+                cheese and topping. During the last 60 years in which pizza spread across the world many variations on
+                this theme were produced, but the old and proven designs of Naples chefs still remain most popular.
 
-    <form action="/count" method="post">
-        <div class="counter" >
-            {{counter}}
-        </div>    
-        <input type="submit" value="Press button to count">
-    
-    </form>
 
-</div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="pizza-cart">
+
+        <h1>Pizza Cart</h1>
+
+        
+        <h5>Totals</h5>
+
+
+        <table>
+
+            <tr>
+                <td class="small">
+                    <h3 class="small">Small Pizza</h3>
+                </td>
+                <td><button class="splusBtn small" id="test" on type="button" name="add">+</button></td>
+                <td>
+                    <h3 class="smallPizzaQuantity item">0</h3>
+                </td>
+                <td><button class="sminusBtn small" on type="button" name="reduce">-</button></td>
+                <td>
+                    <h3 class="item">R<span class="smallPizzaTotal">29.00</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="medium">
+                    <h3 class="medium">medium Pizza</h3>
+                </td>
+                <td><button class="mplusBtn medium" id="test" on type="button" name="add">+</button></td>
+                <td>
+                    <h3 class="mediumPizzaQuantity item">0</h3>
+                </td>
+                <td><button class="mminusBtn medium" on type="button" name="reduce">-</button></td>
+                <td>
+                    <h3 class="item">R<span class="mediumPizzaTotal">59.00</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="large">
+                    <h3 class="large">large Pizza</h3>
+                </td>
+                <td><button class="lplusBtn large" id="test" on type="button" name="add">+</button></td>
+                <td>
+                    <h3 class="largePizzaQuantity item">0</h3>
+                </td>
+                <td><button class="lminusBtn large" on type="button" name="reduce">-</button></td>
+                <td>
+                    <h3 class="item">R<span class="largePizzaTotal">120.00</span>
+                </td>
+            </tr>
+
+            
+        </table>
+         
+
+        <div class="totalCart">
+            <h3 class="totalCart">Total</h3>
+            <h3 class="item">R<span class="totalCart">0.00</span>
+        </div>
+
+        <button type="button" class="payOut">
+        <h3>Pay</h3>
+    </button>
+    <label for="payOut"></label>
+
+        <button type="button" class="orderBtn">
+            <h3>Checkout</h3>
+        </button>
+        <label for=""></label>
+
+        <input class="checkTotal" type="number" placeholder="Enter total amount eg. 65.00">
+
+    </div>
+
+    <div class="message">
+        <label for="themessage">message here</label>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    <div class="middle">
+        <div>
+            <h2>Small Pizza</h2>
+            <img src="pizza.jpg" width="200">
+            <h3>R29.00</h3>
+
+            <div>toppings</div>
+            <p>BBQ</p>
+            <p>Chicken Mayo</p>
+            <p>Sweet Chilli BBQ</p>
+            <p>Chicken Chilli</p>
+
+            <button type="button" class="buysmallBtn">
+                <h3>Buy</h3>
+            </button>
+        </div>
+        <div>
+            <h2>Medium Pizza</h2>
+            <img src="pizza.jpg" width="200">
+            <h3>R59.00</h3>
+
+            <div>toppings</div>
+            <p>BBQ</p>
+            <p>Chicken Mayo</p>
+            <p>Sweet Chilli BBQ</p>
+            <p>Chicken Chilli</p>
+
+            <button type="button" class="buymediumBtn">
+                <h3>Buy</h3>
+            </button>
+        </div>
+        <div>
+            <h2>Large Pizza</h2>
+            <img src="pizza.jpg" width="200">
+            <h3>R110.00</h3>
+
+            <div>toppings</div>
+            <p>BBQ</p>
+            <p>Chicken Mayo</p>
+            <p>Sweet Chilli BBQ</p>
+            <p>Chicken Chilli</p>
+
+            <button type="button" class="buylargeBtn">
+                <h3>Buy</h3>
+            </button>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="center">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="pizza_styles">
+            <div>
+                <h3>Contact Number</h3>
+                <p>011 523 1234</p>
+            </div>
+            <div>
+                <h3>Social Media</h3>
+                <p>twitter: @Pizzaperfectgrid</p>
+                <p>facebook: pizza perfect grid</p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="pizza-cart.js" charset="utf-8"></script>
+
+</body>
+
+</html>
